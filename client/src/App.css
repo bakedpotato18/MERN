@@ -1,0 +1,28 @@
+.App {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.inputs {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+
+.inputs input {
+  width: 225px;
+  height: 40px;
+  font-size: 18px;
+  margin: 10px;
+  padding-left: 10px; 
+}
