@@ -2,11 +2,18 @@
   display: flex;
   justify-content: center;
   height: 100vh;
+  flex-direction: column;
 }
 
 body {
   margin: 0;
   padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(88, 86, 86);
+}
+
+h2 {
+  margin: 0 0 10px 0;
 }
 
 .inputs {
@@ -17,6 +24,7 @@ body {
   height: 100vh;
   align-items: center;
   flex-direction: column;
+  background-color: lightgray;
 }
 
 .inputs input {
@@ -25,4 +33,71 @@ body {
   font-size: 18px;
   margin: 10px;
   padding-left: 10px; 
+}
+
+.inputs button {
+  width: 241px;
+  height: 40px;
+  font-size: 18px;
+  margin: 10px;
+  color:rgb(88, 86, 86);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0 50px 0;
+}
+
+table, td {
+  width: 50%;
+  background-color: lightgray;
+  border-collapse: collapse;
+  border: 10px solid white;
+}
+
+thead {
+  background-color: white;
+}
+
+th {
+  padding: 5px 0;
+  text-align: center;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+td {
+  padding: 10px 10px;
+  width: 55%;
+}
+
+td:nth-child(2) {
+  width: 15%;
+  text-align: center;
+}
+
+td:nth-child(3) {
+  width: 10%;
+  text-align: center;
+}
+
+td:nth-child(4) {
+  width: 10%;
+  text-align: center;
+  background-color: coral;
+}
+
+td:nth-child(5) {
+  width: 10%;
+  text-align: center;
+  background-color: crimson;
+}
+
+td button {
+  background-color: transparent;
+  border: none;
+  color:white;
+  font-weight: bold;
 }
